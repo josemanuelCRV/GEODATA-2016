@@ -1,0 +1,25 @@
+1.Instalar curl:
+sudo apt-get curl
+
+2.Configurar proxy:
+export http_proxy=http://proxy.gfi.es:8000/
+export http_proxy=https://proxy.gfi.es:8000/
+
+3.Ejecutar los siguientes comandos para descargar del repositorio https://deb.nodesource el script 
+de instalación con curl, y pasarlo a la bash para su instalación
+
+curl -sL https://deb.nodesource.com/setup_0.10 | sudo -E bash -
+sudo apt-get install -y nodejs
+
+4. comprobar versiones de node y npm
+
+node --version : v0.10.37
+npm --version : 3.8.7
+
+Final.
+
+
+
+Links:
+Instalar la ultima versión de nodejs y npm
+https://github.com/nodesource/distributions
